@@ -22,5 +22,5 @@ for l in range(5):
         if matriz25[l][c] == busca:
             achou = True; l1 = l; c1 = c; break;
 
-if achou: print("Elemento encontrado na posição ["+str(l1+1)+", "+str(c1+1)+"]")
+if achou: print("Elemento encontrado na posição ["+str(l1)+", "+str(c1)+"]")
 else: print("Elemento não encontrado!")
