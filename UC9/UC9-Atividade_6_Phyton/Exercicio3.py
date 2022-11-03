@@ -9,7 +9,7 @@ for i in range(1, meses):
     antesAnterior=anterior
     anterior=casais
 
-if meses == 1:
+if meses == (1 or 0):
     casais=1
 
 print("O número de colehos após", meses,"meses é:", casais)
