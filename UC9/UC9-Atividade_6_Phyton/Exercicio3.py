@@ -12,6 +12,6 @@ for i in range(1, meses):
 if meses == (1 or 0):
     casais=1
 
-print("O número de colehos após", meses,"meses é:", casais)
+print("O número de coelhos após", meses,"meses é:", casais)
 
 # 1 1 2 3 5 8 13 21 34 55 89 144 288
